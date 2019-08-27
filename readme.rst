@@ -25,10 +25,10 @@ INIT
 
 - first creat a rep on github.com, such as **tstproj**
 - 
-- 0. cd  WKDIR
-- 1. **pyminiproj -projname tstproj -username ihgazni2 -scheme git**
-- 2. cd **tstproj/**
-- 3. **./INIT/init.sh**
+- cd  WKDIR
+- **pyminiproj -projname tstproj -username ihgazni2 -scheme git**
+- cd **tstproj/**
+- **./INIT/init.sh**
 - 
 - goto github.com check it
 
@@ -46,8 +46,8 @@ INIT
 UPDATE
 ~~~~~~
 
-- 0.  modify a file
-- 1.  **./updateversion.sh** "commit message"
+-   modify a file
+-   **./updateversion.sh** "commit message"
 
     ::
         
