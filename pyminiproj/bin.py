@@ -6,14 +6,12 @@ from efdir import fs
 import sys
 import pyminiproj
 
-print(__name__)
 
 
 
-TEM = pkg_resources.resource_filename(__name__,"@PROJNAME@")
+TEM = pkg_resources.resource_filename("pyminiproj","@PROJNAME@")
 
 
-print(TEM)
 
 
 PARAMS = ["projname","username","email","scheme","author"]

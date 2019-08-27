@@ -1,7 +1,13 @@
 from setuptools import setup, find_packages
+
+requirements = [
+    'efdir'
+]
+
+
 setup(
       name="pyminiproj",
-      version = "0.1",
+      version = "0.0.5", #@version@#
       description="creat a python project template DIR , includes some shell-scripts for git and pypi",
       author="dli",
       url="https://github.com/ihgazni2/pyminiproj",
@@ -11,6 +17,15 @@ setup(
       entry_points = {
          'console_scripts': ['pyminiproj=pyminiproj.bin:main']
       },
+      package_data = {
+          'template':["pyminiproj/@PROJNAME@"],
+          'resources':["REOURCES/*"]
+      },
+      #import pkg_resources
+      #pkg_resources.resource_filename("pyminiproj","@PROJNAME@")
+      #/root/.cache/Python-Eggs/pyminiproj-0.1-py3.6.egg-tmp/pyminiproj/@PROJNAME@
+      include_package_data=True,
+      install_requires=requirements,
       classifiers=[
           'Environment :: Console',
           'Environment :: Web Environment',
@@ -26,4 +41,8 @@ setup(
 
 # python3 setup.py bdist --formats=tar
 # python3 setup.py sdist
+
+
+
+
 

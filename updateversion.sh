@@ -8,6 +8,8 @@ rm -r dist
 rm -r build
 #
 rm -r pyminiproj.egg-info
+#
+python3 setup_ver_update.py
 git add .
 git commit -m "remove old build"
 git push origin master

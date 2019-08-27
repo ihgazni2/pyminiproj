@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
+
+
+requirements = []
+
 setup(
       name="@projname@",
-      version = "0.1",
+      version = "0.0.1", #@version@#
       description="handle,.in progressing..,APIs",
       author="@author@",
       url="https://github.com/@username@/@projname@",
@@ -17,8 +21,18 @@ setup(
           'Programming Language :: Python',
           ],
       packages= find_packages(),
+      entry_points={
+          'console_scripts': [
+              '@projname@=@projname@.bin:main'
+          ]
+      },
+      package_data={
+          'resources':['RESOURCES/*']
+      },
+      include_package_data=True,
+      install_requires=requirements,
       py_modules=['@projname@'], 
-      )
+)
 
 
 # python3 setup.py bdist --formats=tar
