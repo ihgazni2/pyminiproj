@@ -37,7 +37,7 @@ if(ARGS.author == ""):
 else:
     pass
 
-shutil.copytree(TEM,"proj-tem.zip")
+shutil.copy(TEM,"proj-tem.zip")
 fs.unzip(proj-tem.zip)
 
 
