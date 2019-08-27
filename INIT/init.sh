@@ -2,6 +2,9 @@
 scheme="git"
 git init
 
+if [$scheme == "https"];then
+    echo "$scheme is https"
+fi
 
 if [$scheme == "https"];then
     echo "$scheme is https"
