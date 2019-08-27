@@ -1,4 +1,4 @@
-/usr/local/lib/python3.6/dist-packages/pyminiproj-0.0.8-py3.6.egg
+/usr/local/lib/python3.6/dist-packages/pyminiproj-0.0.9-py3.6.egg
 /usr/local/bin/pyminiproj
 /usr/local/bin/efdir
 /usr/local/bin/nvhtml_beauty
