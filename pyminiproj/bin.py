@@ -58,6 +58,8 @@ def main():
     if(sys.platform == "linux"):
         CHMOD = "chmod 777 -R ./"+ARGS.projname+"/*.sh"
         os.system(CHMOD)
+        CHMOD = "chmod 777 -R ./"+ARGS.projname+"/INIT/*.sh"
+        os.system(CHMOD)
     else:
         pass
 

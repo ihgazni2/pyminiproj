@@ -7,7 +7,7 @@ requirements = [
 
 setup(
       name="pyminiproj",
-      version = "0.0.10", #@version@#
+      version = "0.0.11", #@version@#
       description="creat a python project template DIR , includes some shell-scripts for git and pypi",
       author="dli",
       url="https://github.com/ihgazni2/pyminiproj",
@@ -41,6 +41,7 @@ setup(
 
 # python3 setup.py bdist --formats=tar
 # python3 setup.py sdist
+
 
 
 
