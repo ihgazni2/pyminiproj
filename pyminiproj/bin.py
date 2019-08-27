@@ -4,7 +4,7 @@ import pkg_resources
 import argparse
 from efdir import fs
 import sys
-from pyminiproj import pyminiproj
+import pyminiproj
 
 
 TEM = pkg_resources.resource_filename("pyminiproj","@PROJNAME@")

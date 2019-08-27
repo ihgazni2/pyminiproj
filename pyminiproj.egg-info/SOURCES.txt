@@ -1,9 +1,0 @@
-MANIFEST.in
-setup.py
-pyminiproj/__init__.py
-pyminiproj/bin.py
-pyminiproj.egg-info/PKG-INFO
-pyminiproj.egg-info/SOURCES.txt
-pyminiproj.egg-info/dependency_links.txt
-pyminiproj.egg-info/entry_points.txt
-pyminiproj.egg-info/top_level.txt
