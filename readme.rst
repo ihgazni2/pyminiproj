@@ -105,6 +105,33 @@ CREDENTIAL
         ./INIT/credential.sh
 
 
+CLI HELP
+~~~~~~~~
+    
+    ::
+        
+        # pyminiproj -h
+        usage: pyminiproj [-h] [-projname PROJNAME] [-username USERNAME]
+                          [-password PASSWORD] [-email EMAIL] [-scheme SCHEME]
+                          [-author AUTHOR]
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -projname     PROJNAME,   --projname PROJNAME  git repository names
+          -username     USERNAME,   --username USERNAME  git config --local user.name
+          -password     PASSWORD,   --password PASSWORD  git password
+          -email        EMAIL,      --email EMAIL        git config --local user.email
+          -scheme       SCHEME,     --scheme SCHEME      https or git
+          -author       AUTHOR,     --author AUTHOR      used in setup.py.dflt is same with username
+        
+
+
+DEPENDANCY
+==========
+
+- `efdir <https://github.com/ihgazni2/efdir>`__
+
+
 License
 =======
 
