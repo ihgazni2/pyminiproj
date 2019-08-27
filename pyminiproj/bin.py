@@ -37,9 +37,8 @@ if(ARGS.author == ""):
 else:
     pass
 
-shutil.copytree(TEM,ARGS.projname)
-
-
+shutil.copytree(TEM,"proj-tem.zip")
+fs.unzip(proj-tem.zip)
 
 
 def replace_each(fn):
