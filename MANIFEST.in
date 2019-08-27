@@ -1,1 +1,2 @@
-recursive-include @PROJNAME@ *
+recursive-include RESOURCES *
+recursive-include pyminiproj *
