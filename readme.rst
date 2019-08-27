@@ -41,7 +41,46 @@ INIT
         cd tstproj/
         
         ./INIT/init.sh
-
+        
+        #and will generate the below  files and dirs, its enough for a small python project
+        
+        tstproj# tree
+        .
+        ├── BACKUP
+        │   └── dummy
+        ├── docs
+        │   └── dummy
+        ├── DRAFT
+        │   └── dummy
+        ├── INIT
+        │   ├── credential.sh
+        │   └── init.sh
+        ├── install.sh
+        ├── install.txt
+        ├── LICENSE
+        ├── MANIFEST.in
+        ├── pypiupload.sh
+        ├── README.md
+        ├── readme.rst
+        ├── RESOURCES
+        │   └── dummy
+        ├── setup.py
+        ├── setup_ver_update.py
+        ├── srch.py
+        ├── TEST
+        │   └── dummy
+        ├── tstproj
+        │   ├── bin.py
+        │   ├── Images
+        │   │   └── dummp
+        │   ├── __init__.py
+        │   └── ReadMeDetailed
+        │       └── dummy
+        ├── uninstall.sh
+        └── updateversion.sh
+        
+        9 directories, 23 files
+        
 
 UPDATE
 ~~~~~~
