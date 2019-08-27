@@ -7,7 +7,7 @@ requirements = [
 
 setup(
       name="pyminiproj",
-      version = "0.0.5", #@version@#
+      version = "0.0.6", #@version@#
       description="creat a python project template DIR , includes some shell-scripts for git and pypi",
       author="dli",
       url="https://github.com/ihgazni2/pyminiproj",
@@ -18,7 +18,7 @@ setup(
          'console_scripts': ['pyminiproj=pyminiproj.bin:main']
       },
       package_data = {
-          'template':["pyminiproj/@PROJNAME@"],
+          'template':["pyminiproj/proj-tem.zip"],
           'resources':["REOURCES/*"]
       },
       #import pkg_resources
@@ -41,6 +41,7 @@ setup(
 
 # python3 setup.py bdist --formats=tar
 # python3 setup.py sdist
+
 
 
 

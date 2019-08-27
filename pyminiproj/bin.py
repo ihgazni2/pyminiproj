@@ -9,7 +9,8 @@ import pyminiproj
 
 
 
-TEM = pkg_resources.resource_filename("pyminiproj","@PROJNAME@")
+TEM = pkg_resources.resource_filename("pyminiproj","proj-tem.zip")
+
 
 
 
