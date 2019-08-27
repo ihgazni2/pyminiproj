@@ -1,5 +1,6 @@
 scheme="git"
 git init
+echo $scheme
 if [$scheme == "https"];then
     git remote add origin https://github.com:ihgazni2/pyminiproj.git
     git remote add origin-git git@github.com:ihgazni2/pyminiproj.git
