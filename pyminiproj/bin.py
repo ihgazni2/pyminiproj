@@ -41,6 +41,7 @@ shutil.copy(TEM,"proj-tem.zip")
 fs.unzip("proj-tem.zip")
 os.system('mv @PROJNAME@ '+ARGS.projname)
 os.system('rm proj-tem.zip')
+os.system('mv '+ARGS.projname+'/main '+ ARGS.projname+'/'+ARGS.projname)
 
 def replace_each(fn):
     s = fs.rfile(fn)
