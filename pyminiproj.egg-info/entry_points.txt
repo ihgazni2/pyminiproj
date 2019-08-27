@@ -1,3 +1,0 @@
-[console_scripts]
-pyminiproj = pyminiproj.bin:main
-
