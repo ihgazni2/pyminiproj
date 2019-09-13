@@ -1,6 +1,7 @@
-/usr/local/lib/python3.6/dist-packages/pyminiproj-0.0.24-py3.6.egg
+/usr/local/lib/python3.6/dist-packages/pyminiproj-0.0.25-py3.6.egg
 /usr/local/bin/pyminiproj
 /usr/local/bin/efdir
+/usr/local/bin/efdir_repl_suffix
 /usr/local/bin/nvhtml_beauty
 /usr/local/bin/nvhtml_dir
 /usr/local/bin/nvhtml_find_all
