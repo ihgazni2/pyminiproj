@@ -1,4 +1,4 @@
-/usr/local/lib/python3.6/dist-packages/pyminiproj-0.0.26-py3.6.egg
+/usr/local/lib/python3.6/dist-packages/pyminiproj-0.0.27-py3.6.egg
 /usr/local/bin/pyminiproj
 /usr/local/bin/efdir
 /usr/local/bin/efdir_csv2cols
